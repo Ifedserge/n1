@@ -1,0 +1,70 @@
+.filter__section {
+  width: 331px;
+  height: max-content;
+  margin: 5px;
+  border-radius: 24px;
+  background-color: #171718;
+  display: flex;
+  flex-shrink: 0;
+}
+.filter__section-block {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.filter__section h4 {
+  margin: 20px 0 0 10px;
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+}
+.filter__settings {
+  margin-top: 40px;
+}
+.section__btn {
+  width: 296px;
+  height: 40px;
+  border-radius: 35px;
+  background: #010003;
+  display: flex;
+}
+.filter-btn {
+  width: 143px;
+  font-family: 'SF Pro Text';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 11px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.filter-btn.active {
+  background: #302d31;
+  border-radius: 35px;
+}
+.filter-btn.slot {
+  width: 149px;
+}
+
+.filter__slider {
+  width: 296px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.point {
+  height: '16px';
+  width: '5px';
+}
+
+@media (max-width: 1360px) {
+  .filter__section {
+    margin-right: 10px;
+  }
+}

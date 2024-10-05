@@ -1,0 +1,31 @@
+.themes-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.themes-container h4 {
+  text-align: left;
+}
+
+.theme-buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.theme-button {
+  padding: 10px;
+  margin: 5px;
+  background: #010003;
+  border: none;
+  border-radius: 90px;
+  color: #ffffff99;
+  font-size: 12px;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  cursor: pointer;
+}
+.theme-button:hover,
+.theme-button.active {
+  color: green;
+}

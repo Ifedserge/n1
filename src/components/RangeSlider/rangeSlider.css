@@ -1,0 +1,22 @@
+.filter-slider__block {
+  width: 100%;
+  margin-top: 10px;
+}
+.label__slider {
+  margin-top: 15px;
+}
+.label__slider,
+.persent p {
+  width: 20px;
+  margin-left: 0;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.persent {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
